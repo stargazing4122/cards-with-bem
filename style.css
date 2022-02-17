@@ -1,0 +1,94 @@
+body {
+    background-color: #21232a;
+    color: azure;
+}
+
+.app-title {
+    text-align: center;
+}
+
+/* grid cards */
+.cards-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+/* cards */
+
+.card {
+    background-color: inherit;
+    width: 350px;
+    min-width: 350px;
+    height: 500px;
+    border-radius: 9px;
+    box-shadow: 3px 3px 10px white;
+    margin: 10px;
+}
+.card--red {
+    background-color: indianred;
+}
+
+.card--yellow {
+    background-color: burlywood;
+}
+
+.card--blue {
+    background-color: cornflowerblue;
+}
+.card--green {
+    background-color: aquamarine;
+}
+
+.card--purple {
+    background-color: slateblue;
+}
+
+.card--orange {
+    background-color: coral;
+}
+
+.card__title {
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card__title--black {
+    color: black;
+}
+
+.card__image {
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+    background-color: aquamarine;
+}
+
+.card__image img {
+    width: 100%;
+}
+
+.card__text {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 114px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.card__text div {
+    overflow: hidden;
+    width: 90%;
+    height: 86%;
+}
+
+.card__text--black {
+    color: black;
+}
+
