@@ -1,0 +1,21 @@
+{
+  "name": "cards-practice-bem",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch ./assets/sass/styles.scss ./assets/css/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stargazing4122/cards-with-bem.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stargazing4122/cards-with-bem/issues"
+  },
+  "homepage": "https://github.com/stargazing4122/cards-with-bem#readme",
+  "description": ""
+}
